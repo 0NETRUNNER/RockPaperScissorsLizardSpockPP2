@@ -71,7 +71,21 @@
 
 ### How to Fork
 
-### How to clone 
+To fork the repository:
+
+1. Log in to Github.
+2. Go to the repository for this project, [DylanP400/RockPaperScissorsLiazrdSpockPP2"](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+3. Click the Fork button in the top right corner.
+
+### How to clone
+
+To clone the repository:
+
+1. Log in to GitHub.
+2. Go to the repository for this project, [DylanP400/RockPaperScissorsLiazrdSpockPP2](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 # Credits
 
