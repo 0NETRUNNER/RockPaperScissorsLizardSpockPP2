@@ -18,7 +18,7 @@
 
 * [Testing](#testing)
   * [Lighthouse](#lighthouse)
-  * [Bugs](#bugs) 
+  * [Bugs](#bugs)
 
 * [Accessibility](#accessibility)
 
@@ -65,6 +65,12 @@
 
 # Testing
 
+## Bugs
+
+| Bug | Solution |
+| :---| :---|
+|
+
 # Deployment
 
 ## Local Deployment
@@ -74,7 +80,7 @@
 To fork the repository:
 
 1. Log in to Github.
-2. Go to the repository for this project, [DylanP400/RockPaperScissorsLiazrdSpockPP2"](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+2. Go to the repository for this project, [DylanP400/RockPaperScissorsLiazrdSpockPP2](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
 3. Click the Fork button in the top right corner.
 
 ### How to clone
