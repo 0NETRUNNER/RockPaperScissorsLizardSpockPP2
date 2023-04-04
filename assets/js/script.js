@@ -1,8 +1,12 @@
 let playButton = document.getElementById("play-btn");
 playButton.addEventListener('click', playGame)
 
+let playButtonTwo = document.getElementById("play-btn2");
+playButtonTwo.addEventListener('click', newGame)
+
 let gameRulesContainer = document.getElementById("game-rules")
 let gameContainer = document.getElementById("main-game-container");
+let endGameContainer = document.getElementById('end-game-container');
 
 let playerScore = document.getElementById("player")
 let computerScore = document.getElementById("computer")
@@ -16,6 +20,12 @@ let gameButtons = document.querySelectorAll(".game-btn")
 for (let i = 0; i < gameButtons.length; i++) {
     gameButtons[i].addEventListener('click', function () {});
 }
+
+let player = 0;
+let computer = 0;
+let winner = 0;
+let playerWinStreak = 0;
+let computerWinStreak = 0;
 
 
 function playGame() {
@@ -33,11 +43,19 @@ function playGame() {
     }));
 }
 
-let player = 0;
-let computer = 0;
-let winner = 0;
-let playerWinStreak = 0;
-let computerWinStreak = 0;
+function newGame() {
+    gameContainer.classList.remove("hide")
+    // playGame()
+    endGameContainer.classList.add("hide")
+    winStreakP.textContent = 0;
+    winStreakC.textContent = 0;
+}
+
+// let player = 0;
+// let computer = 0;
+// let winner = 0;
+// let playerWinStreak = 0;
+// let computerWinStreak = 0;
 
 
 function computerTurn() {
@@ -109,15 +127,23 @@ function resetGame() {
     winner = 0;
     playerWinStreak = 0;
     computerWinStreak = 0;
-    gameContainer.classList.add("hide")
+    
+    // gameContainer.classList.add("hide")
+    // endGameContainer.classList.remove("hide")
 }
 
 function endGame() {
-    if (playerWinStreak > 4) {
+    if (playerWinStreak >= 5) {
         alert("You won!");
+        gameContainer.classList.add("hide")
+        endGameContainer.classList.remove("hide")
         resetGame();
-    } else if (computerWinStreak > 4) {
+        console.log(computerWinStreak)
+        console.log(playerWinStreak)
+    } else if (computerWinStreak >= 5) {
         alert("You lost!");
+        gameContainer.classList.add("hide")
+        endGameContainer.classList.remove("hide")
         resetGame();
     } else {}
 };
