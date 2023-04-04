@@ -144,6 +144,37 @@ body {
     color: black;
 }
 
+#end-game-container {
+    font-size: 20px;
+    background-color: rgb(241, 20, 141);
+    border: 4px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px black;
+    padding: 25px;
+    margin: 100px 500px 100px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#end-game-img img {
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+}
+
+#play-btn2 {
+    font-size: 30px;
+    color: rgb(6, 209, 244);
+    background-color: black;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 2px rgb(6, 209, 244);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
 footer {
     height: 80px;
     background-color: rgb(241, 20, 141);
