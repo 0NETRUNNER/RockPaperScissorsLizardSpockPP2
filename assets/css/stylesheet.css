@@ -151,12 +151,13 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 10px 2px black;
     padding: 25px;
-    margin: 100px 500px 100px 500px;
+    margin: 100px 250px 100px 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
+
 #end-game-img img {
     padding: 20px;
     height: 300px;
@@ -175,6 +176,7 @@ body {
     justify-content: center;
     cursor: pointer;
 }
+
 footer {
     height: 80px;
     background-color: rgb(241, 20, 141);
@@ -198,11 +200,12 @@ footer {
     header {
         padding-top: 15px;
         font-size: 25px;
+        line-height: 50px;
     }
 
     #game-rules {
         font-size: 20px;
-        margin: 10px 150px 10px 150px;
+        margin: 80px 60px 90px 60px;
         padding: 0;
     }
 
@@ -267,18 +270,71 @@ footer {
         border-radius: 25px;
         transition: 0.5s;
     }
+
+    #win-streaks {
+        display: flex;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+
+    #end-game-container {
+        padding: 0px;
+        margin: 62px 60px 62px 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #end-game-container p {
+        padding-top: 8px;
+        font-size: 16px;
+    }
+
+    #end-game-img img {
+        padding: 20px;
+        height: 300px;
+        width: 350px;
+    }
+
+    #play-btn2 {
+        font-size: 18px;
+        border-radius: 40px;
+        margin: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer-icons {
+        font-size: 10px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+    footer i {
+        font-size: 30px;
+    }
 }
 
 /* Mobile screens */
 @media screen and (max-width: 760px) {
     header {
         font-size: 18px;
-        line-height: 50px
+        line-height: 60px
     }
 
     #game-rules {
         font-size: 12px;
-        margin: 10px 20px 10px 20px;
+        margin: 80px 20px 90px 20px;
         padding: 0;
     }
 
@@ -299,8 +355,6 @@ footer {
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding-top: 20px;
-        margin-top: 20px;
     }
 
     #main-game-item {
@@ -308,7 +362,7 @@ footer {
         flex-direction: column;
         align-content: space-evenly;
         border-radius: 20px;
-        padding: 15px 15px 15px 15px;
+        padding: 30px 20px 30px 20px;
     }
 
     #score-area {
@@ -345,7 +399,6 @@ footer {
         box-shadow: 0 0 5x 1px rgb(6, 209, 244);
         margin: 5px;
         padding: 10px 10px;
-
     }
 
     .game-btn:hover {
@@ -355,7 +408,42 @@ footer {
     }
 
     #win-streaks {
-        font-size: 16px;
+        font-size: 14px;
+    }
+
+    #end-game-container {
+        padding: 0px;
+        margin: 62px 20px 62px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #end-game-container p {
+        padding-top: 8px;
+        font-size: 12px;
+    }
+
+    #end-game-img img {
+        padding: 20px;
+        height: 225px;
+        width: 250px;
+    }
+
+    #play-btn2 {
+        font-size: 12px;
+        border-radius: 40px;
+        margin: 10px;
+        padding: 10px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
     }
 
     #footer-icons {
@@ -363,5 +451,9 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
+    }
+
+    footer i {
+        font-size: 30px;
     }
 }
