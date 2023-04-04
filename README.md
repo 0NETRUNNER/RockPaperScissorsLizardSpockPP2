@@ -84,7 +84,7 @@
 
 | Bug | Solution |
 | :---| :---|
-|
+|I used If/else statements for the game logic checkWinner() the game kept giving a draw at random | I used a Switch statement instead to solve this problem. |
 
 # Deployment
 
