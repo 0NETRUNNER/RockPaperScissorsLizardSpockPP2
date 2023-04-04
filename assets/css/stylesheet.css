@@ -13,6 +13,7 @@ header {
     font-weight: 800;
     color: rgb(6, 209, 244);
     background-color: rgb(241, 20, 141);
+    height: 80px;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
 
 #game-rules p {
     font-size: 25px;
-    color: rgb(6, 209, 244);
+    color: black;
 }
 
 #gamerules-item {
@@ -94,7 +95,7 @@ body {
 #score-area p {
     padding: 40px;
     padding-bottom: 50px;
-    color: rgb(6, 209, 244);
+    color: black;
 }
 
 #winner-result {
@@ -104,7 +105,7 @@ body {
     align-items: center;
     padding: 20px;
     padding-bottom: 25px;
-    color: rgb(6, 209, 244);
+    color: black;
 }
 
 #game-area {
@@ -140,7 +141,7 @@ body {
     align-content: center;
     margin-top: 20px;
     padding-top: 10px;
-    color: rgb(6, 209, 244);
+    color: black;
 }
 
 footer {
