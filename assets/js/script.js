@@ -1,14 +1,18 @@
-playButton = document.getElementById("play-btn");
+let playButton = document.getElementById("play-btn");
 playButton.addEventListener('click', playGame)
 
-gameRulesContainer = document.getElementById("game-rules")
-gameContainer = document.getElementById("main-game-container");
+let gameRulesContainer = document.getElementById("game-rules")
+let gameContainer = document.getElementById("main-game-container");
 
-playerScore = document.getElementById("player")
-computerScore = document.getElementById("computer")
+let playerScore = document.getElementById("player")
+let computerScore = document.getElementById("computer")
 let theWinner = document.getElementById("winner")
 
-gameButtons = document.querySelectorAll(".game-btn")
+let winStreakP = document.getElementById("win-streak-p")
+let winStreakC = document.getElementById("win-streak-c")
+
+
+let gameButtons = document.querySelectorAll(".game-btn")
 for (let i = 0; i < gameButtons.length; i++) {
     gameButtons[i].addEventListener('click', function () {});
 }
@@ -23,12 +27,17 @@ function playGame() {
         computerTurn();
         playerScore.textContent = ` ${player}`;
         computerScore.textContent = ` ${computer}`;
+        winStreakP.textContent = `${playerWinStreak}`;
+        winStreakC.textContent = `${computerWinStreak}`;
+        endGame();
     }));
 }
 
 let player = 0;
 let computer = 0;
 let winner = 0;
+let playerWinStreak = 0;
+let computerWinStreak = 0;
 
 
 function computerTurn() {
@@ -55,7 +64,6 @@ function computerTurn() {
 }
 
 
-// The varibles arnt working but a string gives a similar result
 function checkWinner() {
     switch (player + computer) {
         case "RockScissors":
@@ -69,6 +77,7 @@ function checkWinner() {
         case "SpockRock":
         case "SpockScissors":
             winner = " Player";
+            playerWinStreak++;
             break;
         case "ScissorsRock":
         case "LizardRock":
@@ -81,6 +90,7 @@ function checkWinner() {
         case "RockSpock":
         case "ScissorsSpock":
             winner = " Computer";
+            computerWinStreak++;
             break;
         case "PaperPaper":
         case "ScissorsScissors":
@@ -91,4 +101,23 @@ function checkWinner() {
             break;
     }
     return winner;
+};
+
+function resetGame() {
+    player = 0;
+    computer = 0;
+    winner = 0;
+    playerWinStreak = 0;
+    computerWinStreak = 0;
+    gameContainer.classList.add("hide")
+}
+
+function endGame() {
+    if (playerWinStreak > 4) {
+        alert("You won!");
+        resetGame();
+    } else if (computerWinStreak > 4) {
+        alert("You lost!");
+        resetGame();
+    } else {}
 };
