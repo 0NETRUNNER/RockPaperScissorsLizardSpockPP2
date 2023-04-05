@@ -16,6 +16,10 @@ header {
     height: 80px;
 }
 
+#the-game {
+    height: 100%
+}
+
 body {
     background-color: rgb(6, 209, 244);
     max-width: 100%;
