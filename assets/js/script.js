@@ -1,25 +1,26 @@
 let playButton = document.getElementById("play-btn");
-playButton.addEventListener('click', playGame)
+playButton.addEventListener('click', playGame);
 
 let playButtonTwo = document.getElementById("play-btn2");
-playButtonTwo.addEventListener('click', newGame)
+playButtonTwo.addEventListener('click', newGame);
 
-let gameRulesContainer = document.getElementById("game-rules")
+let gameRulesContainer = document.getElementById("game-rules");
 let gameContainer = document.getElementById("main-game-container");
 let endGameContainer = document.getElementById('end-game-container');
 
-let playerScore = document.getElementById("player")
-let computerScore = document.getElementById("computer")
-let theWinner = document.getElementById("winner")
+let playerScore = document.getElementById("player");
+let computerScore = document.getElementById("computer");
+let theWinner = document.getElementById("winner");
 
-let winStreakP = document.getElementById("win-streak-p")
-let winStreakC = document.getElementById("win-streak-c")
+let winStreakP = document.getElementById("win-streak-p");
+let winStreakC = document.getElementById("win-streak-c");
 
 
-let gameButtons = document.querySelectorAll(".game-btn")
+let gameButtons = document.querySelectorAll(".game-btn");
 for (let i = 0; i < gameButtons.length; i++) {
     gameButtons[i].addEventListener('click', function () {});
 }
+
 
 let player = 0;
 let computer = 0;
@@ -29,8 +30,8 @@ let computerWinStreak = 0;
 
 
 function playGame() {
-    gameContainer.classList.remove("hide")
-    gameRulesContainer.classList.add("hide")
+    gameContainer.classList.remove("hide");
+    gameRulesContainer.classList.add("hide");
     gameButtons.forEach(button => button.addEventListener('click', () => {
 
         player = button.textContent;
@@ -43,19 +44,13 @@ function playGame() {
     }));
 }
 
+
 function newGame() {
-    gameContainer.classList.remove("hide")
-    // playGame()
-    endGameContainer.classList.add("hide")
+    gameContainer.classList.remove("hide");
+    endGameContainer.classList.add("hide");
     winStreakP.textContent = 0;
     winStreakC.textContent = 0;
 }
-
-// let player = 0;
-// let computer = 0;
-// let winner = 0;
-// let playerWinStreak = 0;
-// let computerWinStreak = 0;
 
 
 function computerTurn() {
@@ -119,7 +114,8 @@ function checkWinner() {
             break;
     }
     return winner;
-};
+}
+
 
 function resetGame() {
     player = 0;
@@ -127,23 +123,21 @@ function resetGame() {
     winner = 0;
     playerWinStreak = 0;
     computerWinStreak = 0;
-    
-    // gameContainer.classList.add("hide")
-    // endGameContainer.classList.remove("hide")
 }
+
 
 function endGame() {
     if (playerWinStreak >= 5) {
         alert("You won!");
-        gameContainer.classList.add("hide")
-        endGameContainer.classList.remove("hide")
+        gameContainer.classList.add("hide");
+        endGameContainer.classList.remove("hide");
         resetGame();
-        console.log(computerWinStreak)
-        console.log(playerWinStreak)
     } else if (computerWinStreak >= 5) {
         alert("You lost!");
-        gameContainer.classList.add("hide")
-        endGameContainer.classList.remove("hide")
+        gameContainer.classList.add("hide");
+        endGameContainer.classList.remove("hide");
         resetGame();
-    } else {}
-};
+    } else {
+        alert("Error.. Something went wrong.");
+    }
+}
