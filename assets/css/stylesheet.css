@@ -16,9 +16,6 @@ header {
     height: 80px;
 }
 
-#the-game {
-    height: 5dvh;
-}
 
 body {
     background-color: rgb(6, 209, 244);
@@ -56,6 +53,7 @@ body {
     height: 300px;
     width: 300px;
 }
+
 
 #play-btn-container {
     display: flex;
@@ -189,23 +187,6 @@ body {
     cursor: pointer;
 }
 
-footer {
-    height: 80px;
-    background-color: rgb(241, 20, 141);
-    text-align: center;
-    margin-top: 650px;
-}
-
-#footer-icons a {
-    font-size: 40px;
-    color: rgb(6, 209, 244);
-    text-align: center;
-    padding: 40px 20px 0px 20px;
-    margin-top: auto;
-    margin-bottom: auto;
-    line-height: 80px;
-}
-
 /* Media queries */
 
 /* Tablet screens */
@@ -321,21 +302,6 @@ footer {
     }
 
 
-    footer {
-        margin: 0;
-        padding: 0;
-    }
-
-    #footer-icons {
-        font-size: 10px;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-    }
-
-    footer i {
-        font-size: 30px;
-    }
 }
 
 /* Mobile screens */
@@ -454,19 +420,4 @@ footer {
         justify-content: center;
     }
 
-    footer {
-        margin: 0;
-        padding: 0;
-    }
-
-    #footer-icons {
-        font-size: 10px;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-    }
-
-    footer i {
-        font-size: 30px;
-    }
 }
