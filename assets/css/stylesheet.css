@@ -17,7 +17,7 @@ header {
 }
 
 #the-game {
-    height: 100dvb;
+    height: 5dvh;
 }
 
 body {
@@ -37,7 +37,6 @@ body {
     border: 4px solid black;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px black;
-    padding: 25px;
     margin: 100px 300px 100px 300px;
     display: flex;
     justify-content: center;
