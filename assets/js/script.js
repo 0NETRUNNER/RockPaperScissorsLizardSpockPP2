@@ -90,8 +90,10 @@ function checkWinner() {
             case "LizardSpock":
             case "SpockRock":
             case "SpockScissors":
-                winner = " Player";
+                winner = " Player!";
                 playerWinStreak++;
+                youWon = document.getElementById("winner");
+                youWon.style.color = "green";
                 break;
             case "ScissorsRock":
             case "LizardRock":
@@ -103,8 +105,10 @@ function checkWinner() {
             case "SpockLizard":
             case "RockSpock":
             case "ScissorsSpock":
-                winner = " Computer";
+                winner = " Computer!";
                 computerWinStreak++;
+                youLost = document.getElementById("winner");
+                youLost.style.color = "blue";
                 break;
             case "PaperPaper":
             case "ScissorsScissors":
@@ -112,14 +116,18 @@ function checkWinner() {
             case "LizardLizard":
             case "SpockSpock":
                 winner = " Draw!";
+                youDraw = document.getElementById("winner");
+                youDraw.style.color = ("yellow");
                 break;
         }
+
         return winner;
     } catch (error) {
         console.error(error);
-        alert("Something went wrong\nPlease refresh the page")
+        alert("Something went wrong please refresh the page")
     }
 }
+
 
 function resetGame() {
     player = 0;
