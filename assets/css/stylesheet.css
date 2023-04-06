@@ -146,10 +146,11 @@ body {
 
 
 .game-btn:hover {
-    color: rgb(241, 20, );
+    color: rgb(241, 20, 141);
     background-color: black;
     border: 4px solid rgb(241, 20, 141);
     transition: 0.8s;
+
 }
 
 
