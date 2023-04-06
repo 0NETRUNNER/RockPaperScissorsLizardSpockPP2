@@ -78,44 +78,48 @@ function computerTurn() {
 
 
 function checkWinner() {
-    switch (player + computer) {
-        case "RockScissors":
-        case "RockLizard":
-        case "PaperRock":
-        case "PaperSpock":
-        case "ScissorsPaper":
-        case "ScissorsLizard":
-        case "LizardPaper":
-        case "LizardSpock":
-        case "SpockRock":
-        case "SpockScissors":
-            winner = " Player";
-            playerWinStreak++;
-            break;
-        case "ScissorsRock":
-        case "LizardRock":
-        case "RockPaper":
-        case "SpockPaper":
-        case "PaperScissors":
-        case "LizardScissors":
-        case "PaperLizard":
-        case "SpockLizard":
-        case "RockSpock":
-        case "ScissorsSpock":
-            winner = " Computer";
-            computerWinStreak++;
-            break;
-        case "PaperPaper":
-        case "ScissorsScissors":
-        case "RockRock":
-        case "LizardLizard":
-        case "SpockSpock":
-            winner = " Draw!";
-            break;
+    try {
+        switch (player + computer) {
+            case "RockScissors":
+            case "RockLizard":
+            case "PaperRock":
+            case "PaperSpock":
+            case "ScissorsPaper":
+            case "ScissorsLizard":
+            case "LizardPaper":
+            case "LizardSpock":
+            case "SpockRock":
+            case "SpockScissors":
+                winner = " Player";
+                playerWinStreak++;
+                break;
+            case "ScissorsRock":
+            case "LizardRock":
+            case "RockPaper":
+            case "SpockPaper":
+            case "PaperScissors":
+            case "LizardScissors":
+            case "PaperLizard":
+            case "SpockLizard":
+            case "RockSpock":
+            case "ScissorsSpock":
+                winner = " Computer";
+                computerWinStreak++;
+                break;
+            case "PaperPaper":
+            case "ScissorsScissors":
+            case "RockRock":
+            case "LizardLizard":
+            case "SpockSpock":
+                winner = " Draw!";
+                break;
+        }
+        return winner;
+    } catch (error) {
+        console.error(error);
+        alert("Something went wrong\nPlease refresh the page")
     }
-    return winner;
 }
-
 
 function resetGame() {
     player = 0;
@@ -137,7 +141,5 @@ function endGame() {
         gameContainer.classList.add("hide");
         endGameContainer.classList.remove("hide");
         resetGame();
-    } else {
-        alert("Error.. Something went wrong.");
-    }
-}
+    } else {}
+};
