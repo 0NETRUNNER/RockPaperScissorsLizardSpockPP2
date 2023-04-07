@@ -10,11 +10,12 @@ header {
     display: flex;
     justify-content: center;
     padding: 10px;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 800;
     color: rgb(6, 209, 244);
     background-color: rgb(241, 20, 141);
     height: 80px;
+    line-height: 50px;
 }
 
 
@@ -101,13 +102,13 @@ body {
 
 
 #score-area {
-    font-size: 40px;
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-evenly;
 }
 
 
-#score-area p {
+#score-area h2 {
     padding: 50px;
     padding-bottom: 50px;
     color: black;
@@ -115,7 +116,7 @@ body {
 
 
 #winner-result {
-    font-size: 40px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,7 +156,7 @@ body {
 
 
 #win-streaks {
-    font-size: 30px;
+    font-size: 20px;
     display: flex;
     justify-content: space-around;
     align-content: center;
@@ -215,7 +216,6 @@ body {
 
 #win-streak-c {
     color: rgb(6, 209, 244);
-    ;
 }
 
 /* Media queries */
@@ -224,18 +224,22 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1020px) {
     header {
         padding-top: 15px;
-        font-size: 25px;
+        font-size: 15px;
         line-height: 50px;
     }
 
     #game-rules {
         font-size: 20px;
         margin: 80px 60px 90px 60px;
-        padding: 0;
+        padding: 10px;
+    }
+
+    #game-rules h2 {
+        font-size: 25px;
     }
 
     #play-btn {
-        font-size: 20px;
+        font-size: 25px;
         margin: 10px;
         padding: 10px;
         display: flex;
@@ -259,21 +263,22 @@ body {
     }
 
     #score-area {
-        font-size: 25px;
+        font-size: 18px;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        margin: 10px;
     }
 
-    #score-area p {
-        padding: 5px 15px 5px 15px;
+    #score-area h2 {
+        padding: 0px 10px 0px 10px;
     }
 
     #winner-result {
-        font-size: 25px;
+        font-size: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 25px;
     }
 
     #game-area {
@@ -299,11 +304,11 @@ body {
     #win-streaks {
         display: flex;
         justify-content: space-between;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     #end-game-container {
-        padding: 0px;
+        padding: 10px;
         margin: 62px 60px 62px 60px;
         display: flex;
         flex-direction: column;
@@ -318,8 +323,9 @@ body {
 
     #end-game-img img {
         padding: 20px;
-        height: 300px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
+        border-radius: 150px;
     }
 
     #play-btn2 {
@@ -338,14 +344,14 @@ body {
 /* Mobile screens */
 @media screen and (max-width: 760px) {
     header {
-        font-size: 18px;
+        font-size: 10px;
         line-height: 60px;
     }
 
     #game-rules {
         font-size: 12px;
         margin: 40px 20px 0px 20px;
-        padding: 10px;
+        padding: 14px;
     }
 
     #game-rules p {
@@ -382,13 +388,13 @@ body {
     }
 
     #score-area {
-        font-size: 20px;
+        font-size: 14px;
         display: flex;
         justify-content: space-evenly;
         padding-left: 25px;
     }
 
-    #score-area p {
+    #score-area h2 {
         padding: 5px 15px 5px 15px;
     }
 
@@ -428,7 +434,7 @@ body {
     }
 
     #end-game-container {
-        padding: 0px;
+        padding: 10px;
         margin: 62px 20px 62px 20px;
         display: flex;
         flex-direction: column;
