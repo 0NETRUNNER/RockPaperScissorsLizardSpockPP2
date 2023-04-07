@@ -86,7 +86,7 @@
 | :---| :---|
 |I used If/else statements for the game logic checkWinner() the game kept giving a draw at random | I used a Switch statement instead to solve this problem.|
 | The winning streak was going up in doubles after playing again. | I was calling playgame() inside newGame() that was causing ths issue.
-
+| I had a footer that would not stay down across the page | After two days of trying to sort it I decided to remove the footer |
 # Deployment
 
 ## Local Deployment
