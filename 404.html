@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Error</title>
+    <style>
+        body {
+            background-color: rgb(6, 209, 244);
+        }
+
+        #center {
+            margin-top: 100px;
+            margin: 150px 150px 150px 150px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            background-color: rgb(241, 20, 141);
+            border: 4px solid black;
+            border-radius: 20px;
+            box-shadow: 0 0 10px 2px black;
+        }
+
+        #center p {
+            margin: 3px;
+            font-size: 25px;
+        }
+
+        #center img {
+            margin-top: 20px;
+            border-radius: 150px;
+        }
+
+        /* Mobile screens */
+        @media screen and (max-width: 760px) {
+            #center {
+                margin-top: 100px;
+                margin: 150px 50px 150px 50px;
+                padding: 20px;
+
+
+            }
+
+            #center p {
+                margin: 3px;
+                font-size: 16px;
+            }
+
+            #center img {
+                margin-top: 20px;
+                border-radius: 150px;
+                height: 100px;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section id="center">
+        <p>Rock Paper Scissors Lizard Spock is not available right now.</p>
+        <p>We are working on fixing this issue. Please try again later.</p>
+        <img src="./assets/images/r-p-s-l-s.jpg" alt="Funny Rock Paper Scissors Lizard Spock characters">
+    </section>
+</body>
+
+</html>
