@@ -201,6 +201,23 @@ body {
     cursor: pointer;
 }
 
+#player {
+    color: rgb(4, 224, 96);
+}
+
+#computer {
+    color: rgb(6, 209, 244);
+}
+
+#win-streak-p {
+    color: rgb(4, 224, 96);
+}
+
+#win-streak-c {
+    color: rgb(6, 209, 244);
+    ;
+}
+
 /* Media queries */
 
 /* Tablet screens */

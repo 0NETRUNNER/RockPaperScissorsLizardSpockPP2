@@ -93,7 +93,7 @@ function checkWinner() {
                 winner = " Player!";
                 playerWinStreak++;
                 youWon = document.getElementById("winner");
-                youWon.style.color = "green";
+                youWon.style.color = "rgb(4, 224, 96)";
                 break;
             case "ScissorsRock":
             case "LizardRock":
@@ -108,7 +108,7 @@ function checkWinner() {
                 winner = " Computer!";
                 computerWinStreak++;
                 youLost = document.getElementById("winner");
-                youLost.style.color = "blue";
+                youLost.style.color = "rgb(6, 209, 244)";
                 break;
             case "PaperPaper":
             case "ScissorsScissors":
