@@ -24,6 +24,7 @@
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
+  * [How to play](#how-to-play)
 
 * [Features](#features)
   * [General features on each page](#general-features-on-each-page)
@@ -50,13 +51,42 @@
 
 # User Experience
 
+
 ## Initial Discussion
+
 
 ### Key information for this site
 
+* An advanced version of the traditional game of Rock, Paper Scissors.
+
+* Two new choices Lizard & Spock.
+
+* A game to play between the user and the computer.
+
+* Learn how to play Rock Paper Scissors Lizard Spock.
+
+
 ## User Stories
 
+* I want the game to load quickly.
+
+* I dont want too much of a challenge.
+
+* I want to see my score go up.
+
+* I want to see if I won.
+
+
 ### Client goals
+
+* To be able to view the game on a range of devices.
+
+* To make it clear how to play the game.
+
+* To have game controls that are easy to read and use.
+
+* To be able to play the game again.
+
 
 # Design
 
@@ -65,12 +95,20 @@
 ## Imagery
 I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
  * I got te first image from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+
   * ![Introduction Image](./assets/images/rules.webp)
 
 * I got the second image from [Chasing The Frog](http://www.chasingthefrog.com/item/rock-paper-scissors-lizard-spock-t-shirt/).
+
   * ![Game Characters](./assets/images/r-p-s-l-s.jpg)
 
 ## Wireframes
+
+## How to play 
+
+Both players display a symbol at the same time. 
+A rock beats scissors and crushes lizard, scissors beats lizard by decapitating it, and beats paper by cutting it, paper beats rock by covering it and discredits spock, lizard eats paper and poisons Spock, Spock smashes scissors and vaporizes rock.
+
 
 # Features
 
