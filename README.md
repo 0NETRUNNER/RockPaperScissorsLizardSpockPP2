@@ -76,7 +76,26 @@
 
 ## languages used
 
+ * HTML
+ * CSS
+ * JavaScript
+
 ## Frameworks, Libraries & Programs Used
+   * [Git](https://git-scm.com/) - For version Control.
+   * [Github](https://github.com/) - Used to save amd store the files for the website. 
+   * [Gitpod](https://www.gitpod.io/) - Was used to created my code.
+   * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+   * [AM I Resposnsive?](https://amiresponsive.co.uk/) - Used to show the Website image on a range of devices.
+   * [Shields](https://shields.io/) - For the shields at the top of the README.
+   * [Favicon](https://www.favicon-generator.org/) - Used to make a Favicon for the website.
+   * [Coolors](https://coolors.co/808080-ff0000-ffffff-f5f5f5-000000) - For my colour scheme.
+   * [Lamba Testing](https://www.lambdatest.com/?fp_ref=ngan15&gclid=Cj0KCQjwocShBhCOARIsAFVYq0i7XM8lENlC8yIrumBcCkS42VLHZfT6Fjc5waFzBGuNk6OCc7kIBFUaAou3EALw_wcB) - Was used for testing resposiveness across various devices.
+   * [Favicon Generator](https://www.favicon-generator.org/) - Was
+ used to make the favicon.
+   * [HTML Validator](https://validator.w3.org/) - For HTML validation.
+   * [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - For CSS validation.
+   * [JS Hint](https://jshint.com/) For JavaScript validation.
+
 
 # Testing
 
