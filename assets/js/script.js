@@ -1,34 +1,38 @@
-let playButton = document.getElementById("play-btn");
-playButton.addEventListener('click', playGame);
+let playButton = document.getElementById("play-btn"); // Play button
+playButton.addEventListener('click', playGame); // Event listener to start the game when the play button is clicked.
 
-let playButtonTwo = document.getElementById("play-btn2");
-playButtonTwo.addEventListener('click', newGame);
-
+let playButtonTwo = document.getElementById("play-btn2"); // Play again button .
+playButtonTwo.addEventListener('click', newGame); // Event listener to start the game when the play button is clicked.
+/* The game containers */
 let gameRulesContainer = document.getElementById("game-rules");
 let gameContainer = document.getElementById("main-game-container");
 let endGameContainer = document.getElementById('end-game-container');
-
+/* For the scores and choices */
 let playerScore = document.getElementById("player");
 let computerScore = document.getElementById("computer");
 let theWinner = document.getElementById("winner");
-
+/* For the win streaks */
 let winStreakP = document.getElementById("win-streak-p");
 let winStreakC = document.getElementById("win-streak-c");
 
-
+/* Event listener for the game buttons */
 let gameButtons = document.querySelectorAll(".game-btn");
 for (let i = 0; i < gameButtons.length; i++) {
     gameButtons[i].addEventListener('click', function () {});
 }
 
-
+/* Varibles */
 let player = 0;
 let computer = 0;
 let winner = 0;
 let playerWinStreak = 0;
 let computerWinStreak = 0;
-
-
+/*
+ * Function to play the game that removes & adds containers from view
+ * It calls the ComputerTurn function 
+ * Then updates the scores and winstreak
+ * And finally it calls the endGame function
+ */
 function playGame() {
     gameContainer.classList.remove("hide");
     gameRulesContainer.classList.add("hide");
@@ -44,7 +48,7 @@ function playGame() {
     }));
 }
 
-
+/* function reseting the game views and layouts */
 function newGame() {
     gameContainer.classList.remove("hide");
     endGameContainer.classList.add("hide");
@@ -52,7 +56,9 @@ function newGame() {
     winStreakC.textContent = 0;
 }
 
-
+/* This function creates a random number between 1 and 5
+ * And then depending on the number it is assigned a choice.
+ */
 function computerTurn() {
     const randNum = Math.floor(Math.random() * 6);
 
@@ -76,7 +82,10 @@ function computerTurn() {
     theWinner.textContent = checkWinner();
 }
 
-
+/* This function checks the choice of the player & computer and determines the winner.
+ * After finding the winner it incremnts the winners win streak and applys color to the DOM.
+ * If something goes wrong with the game it has a error alert to the user to refresh the page.
+ */
 function checkWinner() {
     try {
         switch (player + computer) {
@@ -124,11 +133,11 @@ function checkWinner() {
         return winner;
     } catch (error) {
         console.error(error);
-        alert("Something went wrong please refresh the page")
+        alert("Something went wrong please refresh the page");
     }
 }
 
-
+/* For resetting all the varibles */
 function resetGame() {
     player = 0;
     computer = 0;
@@ -137,7 +146,11 @@ function resetGame() {
     computerWinStreak = 0;
 }
 
-
+/* This function ends the game if the plyer or computer reaches a score of 5 
+ * And calls the resetGame function then it
+ * Displays the container for thanking the player for playing and giving 
+ * them the option to play again
+ */
 function endGame() {
     if (playerWinStreak >= 5) {
         alert("You won!");
@@ -150,4 +163,4 @@ function endGame() {
         endGameContainer.classList.remove("hide");
         resetGame();
     } else {}
-};
+}
