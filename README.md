@@ -17,36 +17,51 @@
 # Contents
 
 * [User Experience](#user-experience)
+
   * [Initial Discussion](#initial-discussion)
+
   * [User Stories](#user-stories)
 
 * [Design](#design)
+
   * [Colour Scheme](#colour-scheme)
+
   * [Imagery](#imagery)
+
   * [Wireframes](#wireframes)
+
   * [How to play](#how-to-play)
 
 * [Features](#features)
+
   * [General features on each page](#general-features-on-each-page)
 
 * [Technologies Used](#technologies-used)
+
   * [Languages Used](#languages-used)
+  
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
 * [Testing](#testing)
+
   * [Lighthouse](#lighthouse)
+
   * [Bugs](#bugs)
 
 * [Accessibility](#accessibility)
 
 * [Deployment](#deployment)
+
   * [Local deplyoment](#local-deployment)
 
 * [Credits](#credits)
 
   * [Code Used](#code-used)
+
   * [Content](#content)
+
   * [Media](#media)
+
   * [Acknowledgments](#acknowledgments)
 
 # User Experience
@@ -87,7 +102,9 @@
 ## Colour Scheme
 
 ## Imagery
+
 I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
+
 * I got te first image from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
 
 * ![Introduction Image](./assets/images/rules.webp)
@@ -97,12 +114,33 @@ I have used two images in this game one at the start before playing and the seco
   * ![Game Characters](./assets/images/r-p-s-l-s.jpg)
 
 ## Wireframes
+* Phone.
 
-## How to play 
+  * ![Phone](./assets/images/wireframe-phone-1.jpg)
 
-Both players display a symbol at the same time. 
-A rock beats scissors and crushes lizard, scissors beats lizard by decapitating it, and beats paper by cutting it, paper beats rock by covering it and discredits spock, lizard eats paper and poisons Spock, Spock smashes scissors and vaporizes rock.
+  * ![Phone](./assets/images/wireframe-phone-2.jpg)
 
+  * ![Phone](./assets/images/wireframe-phone-3.jpg)
+
+* Tablet.
+
+  * ![Tablet](./assets/images/wireframe-tablet-1.jpg)
+
+  * ![Tablet](./assets/images/wireframe-tablet-2.jpg)
+
+  * ![Tablet](./assets/images/wireframe-tablet-3.jpg)
+
+* Desktop.
+
+  * ![Desktop](./assets/images/wireframe-desktop-1.jpg)
+
+  * ![Desktop](./assets/images/wireframe-desktop-2.jpg)
+
+  * ![Desktop](./assets/images/wireframe-desktop-3.jpg)
+
+## How to play
+
+Both players pick a choice rock beats scissors and crushes lizard, scissors beats lizard by decapitating it, and beats paper by cutting it, paper beats rock by covering it and discredits spock, lizard eats paper and poisons Spock, Spock smashes scissors and vaporizes rock.
 
 # Features
 
@@ -152,7 +190,7 @@ A rock beats scissors and crushes lizard, scissors beats lizard by decapitating 
 | Bug | Solution |
 | :---| :---|
 |I used If/else statements for the game logic checkWinner() the game kept giving a draw at random | I used a Switch statement instead to solve this problem.|
-| The winning streak was going up in doubles after playing again. | I was calling playgame() inside newGame() that was causing ths issue.
+| The winning streak was going up in doubles after playing again. | I was calling playgame() inside newGame() that was causing this issue.
 | I had a footer that would not stay down across the page | After two days of trying to sort it I decided to remove the footer |
 
 # Deployment
