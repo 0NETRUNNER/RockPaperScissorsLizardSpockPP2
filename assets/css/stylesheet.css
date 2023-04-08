@@ -5,7 +5,7 @@
 
 }
 
-
+/* The header */
 header {
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ header {
     line-height: 50px;
 }
 
-
+/* For the body */
 body {
     background-color: rgb(6, 209, 244);
     max-width: 100%;
@@ -26,12 +26,12 @@ body {
     height: 100dvh;
 }
 
-
+/* To hide certain divs when they are not needed */
 .hide {
     display: none !important;
 }
 
-
+/* For the rules of the game */
 #game-rules {
     font-size: 16px;
     background-color: rgb(241, 20, 141);
@@ -45,26 +45,25 @@ body {
     text-align: center;
 }
 
-
 #game-rules p {
     font-size: 25px;
     color: black;
 }
 
-
+/* photo with a diagram of how to play */
 #game-rules img {
     height: 300px;
     width: 300px;
 }
 
-
+/* container to hold the play button */
 #play-btn-container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-
+/* Play button to start the game */
 #play-btn {
     font-size: 30px;
     color: rgb(6, 209, 244);
@@ -78,7 +77,7 @@ body {
     cursor: pointer;
 }
 
-
+/* Container to hold the main game content */
 #main-game-container {
     display: flex;
     flex-direction: row;
@@ -86,7 +85,6 @@ body {
     align-items: center;
     padding: 0px;
 }
-
 
 #main-game-item {
     background-color: rgb(241, 20, 141);
@@ -100,13 +98,12 @@ body {
     box-shadow: 0 0 10px 2px black;
 }
 
-
+/* For displaying the player/computer choice */
 #score-area {
     font-size: 1.5rem;
     display: flex;
     justify-content: space-evenly;
 }
-
 
 #score-area h2 {
     padding: 50px;
@@ -114,7 +111,7 @@ body {
     color: black;
 }
 
-
+/* To display the winning result */
 #winner-result {
     font-size: 25px;
     display: flex;
@@ -125,14 +122,13 @@ body {
     color: black;
 }
 
-
+/* The game area with buttons to play */
 #game-area {
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
     padding-top: 55px;
 }
-
 
 .game-btn {
     font-size: 30px;
@@ -145,7 +141,7 @@ body {
     cursor: pointer;
 }
 
-
+/* For when you hover over a button */
 .game-btn:hover {
     color: rgb(241, 20, 141);
     background-color: black;
@@ -154,7 +150,7 @@ body {
 
 }
 
-
+/* For tracking the winner */
 #win-streaks {
     font-size: 20px;
     display: flex;
@@ -165,7 +161,7 @@ body {
     color: black;
 }
 
-
+/* Container for when the game has ended */
 #end-game-container {
     font-size: 20px;
     background-color: rgb(241, 20, 141);
@@ -180,7 +176,7 @@ body {
     text-align: center;
 }
 
-
+/* Image with the characters of the game */
 #end-game-img img {
     padding: 20px;
     height: 300px;
@@ -188,7 +184,7 @@ body {
     border-radius: 200px;
 }
 
-
+/* Play button to restart the game */
 #play-btn2 {
     font-size: 30px;
     color: rgb(6, 209, 244);
@@ -202,6 +198,7 @@ body {
     cursor: pointer;
 }
 
+/* Span Ids for adding color to the player/computers choice with Javascript */
 #player {
     color: rgb(4, 224, 96);
 }
@@ -210,6 +207,7 @@ body {
     color: rgb(6, 209, 244);
 }
 
+/* Span Ids for adding color to the player/computers win streaks with Javascript */
 #win-streak-p {
     color: rgb(4, 224, 96);
 }
@@ -222,12 +220,15 @@ body {
 
 /* Tablet screens */
 @media screen and (min-width: 768px) and (max-width: 1020px) {
+
+    /* The header */
     header {
         padding-top: 15px;
         font-size: 15px;
         line-height: 50px;
     }
 
+    /* For the rules of the game */
     #game-rules {
         font-size: 20px;
         margin: 80px 60px 90px 60px;
@@ -238,6 +239,7 @@ body {
         font-size: 25px;
     }
 
+    /* Button to start the game */
     #play-btn {
         font-size: 25px;
         margin: 10px;
@@ -246,6 +248,7 @@ body {
         justify-content: center;
     }
 
+    /* Container to hold the main game content */
     #main-game-container {
         display: flex;
         flex-direction: column;
@@ -262,6 +265,7 @@ body {
         padding: 30px 120px 30px 120px;
     }
 
+    /* For displaying the player/computers choice */
     #score-area {
         font-size: 18px;
         display: flex;
@@ -273,6 +277,7 @@ body {
         padding: 0px 10px 0px 10px;
     }
 
+    /* For displaying the winner result */
     #winner-result {
         font-size: 20px;
         display: flex;
@@ -281,6 +286,7 @@ body {
         padding-top: 25px;
     }
 
+    /* Where the main game is played */
     #game-area {
         display: flex;
         flex-direction: column;
@@ -288,6 +294,7 @@ body {
         padding: 20px;
     }
 
+    /* Buttons to play the game */
     .game-btn {
         font-size: 25px;
         border-radius: 25px;
@@ -295,18 +302,21 @@ body {
         padding: 10px 10px;
     }
 
+    /* Hover effect for when you hover over the game buttons */
     .game-btn:hover {
         font-size: 23px;
         border-radius: 25px;
         transition: 0.5s;
     }
 
+    /* The player/computers win streak */
     #win-streaks {
         display: flex;
         justify-content: space-between;
         font-size: 14px;
     }
 
+    /* The container once the game has finished */
     #end-game-container {
         padding: 10px;
         margin: 62px 60px 62px 60px;
@@ -328,6 +338,7 @@ body {
         border-radius: 150px;
     }
 
+    /* button to play again */
     #play-btn2 {
         font-size: 18px;
         border-radius: 40px;
@@ -337,17 +348,18 @@ body {
         display: flex;
         justify-content: center;
     }
-
-
 }
 
 /* Mobile screens */
 @media screen and (max-width: 760px) {
+
+    /* The header */
     header {
         font-size: 10px;
         line-height: 60px;
     }
 
+    /* For the rules of the game */
     #game-rules {
         font-size: 12px;
         margin: 40px 20px 0px 20px;
@@ -363,6 +375,7 @@ body {
         width: 200px;
     }
 
+    /* Button to start the game */
     #play-btn {
         font-size: 20px;
         margin: 10px;
@@ -371,6 +384,7 @@ body {
         justify-content: center;
     }
 
+    /* Container to hold the main game content */
     #main-game-container {
         display: flex;
         flex-direction: row;
@@ -387,6 +401,7 @@ body {
         margin: 15px;
     }
 
+    /* For displaying the player/computers choice */
     #score-area {
         font-size: 14px;
         display: flex;
@@ -398,6 +413,7 @@ body {
         padding: 5px 15px 5px 15px;
     }
 
+    /* For displaying the winner result */
     #winner-result {
         font-size: 15px;
         display: flex;
@@ -406,6 +422,7 @@ body {
         padding-top: 30px;
     }
 
+    /* for the main game area */
     #game-area {
         display: flex;
         flex-direction: column;
@@ -413,26 +430,30 @@ body {
         padding: 20px;
     }
 
+    /* For the buttons to play the game */
     .game-btn {
         font-size: 15px;
         color: rgb(6, 209, 244);
         background-color: black;
         border-radius: 25px;
-        box-shadow: 0 0 5x 1px rgb(6, 209, 244);
+        box-shadow: 0 0 5px 1px rgb(6, 209, 244);
         margin: 5px;
         padding: 10px 10px;
     }
 
+    /* Hover effect for when you hover over the buttons */
     .game-btn:hover {
         font-size: 13px;
         border-radius: 25px;
         transition: 0.5s;
     }
 
+    /* The player/computers win streak */
     #win-streaks {
         font-size: 14px;
     }
 
+    /* The container once the game has finished */
     #end-game-container {
         padding: 10px;
         margin: 62px 20px 62px 20px;
@@ -453,6 +474,7 @@ body {
         width: 250px;
     }
 
+    /* button to play again */
     #play-btn2 {
         font-size: 12px;
         border-radius: 40px;
@@ -462,5 +484,4 @@ body {
         display: flex;
         justify-content: center;
     }
-
 }
