@@ -1,6 +1,9 @@
 # Rock Paper Scissors Lizard Spock
 
-**Rock Paper Scissors Lizard Spock** is a advanced version of the Rock Paper Scissors game that I have decided to make with HTML, CSS and Javascript
+**Rock Paper Scissors Lizard Spock** is a advanced version of the Rock Paper Scissors game that I have decided to make with HTML, CSS and Javascript. You have 5 choices and 5 rounds to win the game. The game is one player and you must beat the computer to win.
+
+![Am I responsive?](./assets/images/am-i-resonsive.png)
+
 [Play the game here.](https://dylanp400.github.io/RockPaperScissorsLizardSpockPP2/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DylanP400/RockPaperScissorsLizardSpockPP2)
@@ -48,7 +51,7 @@
 
   * [Bugs](#bugs)
 
-* [Accessibility](#accessibility)
+  * [Accessibility](#accessibility)
 
 * [Deployment](#deployment)
 
@@ -85,6 +88,7 @@
 * I dont want too much of a challenge.
 
 * I want to see my score go up.
+
 * I want to see if I won.
 
 ### Client goals
