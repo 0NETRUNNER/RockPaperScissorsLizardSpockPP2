@@ -62,9 +62,13 @@
 
 ## Colour Scheme
 
-## Typography
-
 ## Imagery
+I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
+ * I got te first image from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+  * ![Introduction Image](./assets/images/rules.webp)
+
+* I got the second image from [Chasing The Frog](http://www.chasingthefrog.com/item/rock-paper-scissors-lizard-spock-t-shirt/).
+  * ![Game Characters](./assets/images/r-p-s-l-s.jpg)
 
 ## Wireframes
 
