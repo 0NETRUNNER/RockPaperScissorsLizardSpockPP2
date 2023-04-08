@@ -83,6 +83,9 @@
 
 ## User Stories
 
+</summary>
+
+
 * I want the game to load quickly.
 
 * I dont want too much of a challenge.
@@ -105,6 +108,49 @@
 
 ## Colour Scheme
 
+![Color Scheme](./assets/images/color-scheme.png)
+
+* **Baby Blue** | **rgb(6, 209, 244)**
+
+  * Header text
+
+  * Background
+
+  * Button text
+
+  * Computer choice
+
+  * Computer win streak
+
+  * Winner text content when the computer wins
+
+* **Neon Pink** | **rgb(241. 20, 141)**
+
+  * Header background
+
+  * Containers background
+
+  * Button on hover
+  
+* **Black** | **rgb(0, 0, 0)**
+
+  * Button background colour
+
+  * Text content.
+
+* **Neon Green** | **rgb(4, 224, 96)*8
+
+  * Player choice
+
+  * Player win streak
+
+  * Winner text content when the player wins
+
+* **Yellow** | **rgb(255, 255, 0)**
+
+  * winner text content on draw
+
+
 ## Imagery
 
 I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
@@ -118,29 +164,36 @@ I have used two images in this game one at the start before playing and the seco
   * ![Game Characters](./assets/images/r-p-s-l-s.jpg)
 
 ## Wireframes
-* Phone.
 
-  * ![Phone](./assets/images/wireframe-phone-1.jpg)
+<details>
+<summary>Phone Screens</summary>
 
-  * ![Phone](./assets/images/wireframe-phone-2.jpg)
+* ![Phone](./assets/images/wireframe-phone-1.jpg)
 
-  * ![Phone](./assets/images/wireframe-phone-3.jpg)
+* ![Phone](./assets/images/wireframe-phone-2.jpg)
 
-* Tablet.
+* ![Phone](./assets/images/wireframe-phone-3.jpg)
+</details>
 
-  * ![Tablet](./assets/images/wireframe-tablet-1.jpg)
+<details>
+<summary>Tablet Screens</summary>
 
-  * ![Tablet](./assets/images/wireframe-tablet-2.jpg)
+* ![Tablet](./assets/images/wireframe-tablet-1.jpg)
 
-  * ![Tablet](./assets/images/wireframe-tablet-3.jpg)
+* ![Tablet](./assets/images/wireframe-tablet-2.jpg)
 
-* Desktop.
+* ![Tablet](./assets/images/wireframe-tablet-3.jpg)
+</details>
+<details>
 
-  * ![Desktop](./assets/images/wireframe-desktop-1.jpg)
+<summary>desktop screens</summary>
+* ![Desktop](./assets/images/wireframe-desktop-1.jpg)
 
-  * ![Desktop](./assets/images/wireframe-desktop-2.jpg)
+* ![Desktop](./assets/images/wireframe-desktop-2.jpg)
 
-  * ![Desktop](./assets/images/wireframe-desktop-3.jpg)
+* ![Desktop](./assets/images/wireframe-desktop-3.jpg)
+</details>
+
 
 ## How to play
 
