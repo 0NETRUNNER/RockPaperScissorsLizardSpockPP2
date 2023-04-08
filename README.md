@@ -1,4 +1,5 @@
 # Rock Paper Scissors Lizard Spock
+
 **Rock Paper Scissors Lizard Spock** is a advanced version of the Rock Paper Scissors game that I have decided to make with HTML, CSS and Javascript
 [Play the game here.](https://dylanp400.github.io/RockPaperScissorsLizardSpockPP2/)
 
@@ -13,7 +14,7 @@
 ![Github stars](https://img.shields.io/github/stars/DylanP400/RockPaperScissorsLizardSpockPP2)
 ![Github forks](https://img.shields.io/github/forks/DylanP400/RockPaperScissorsLizardSpockPP2)
 
-# Contents 
+# Contents
 
 * [User Experience](#user-experience)
   * [Initial Discussion](#initial-discussion)
@@ -21,7 +22,6 @@
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
   * [How to play](#how-to-play)
@@ -51,9 +51,7 @@
 
 # User Experience
 
-
 ## Initial Discussion
-
 
 ### Key information for this site
 
@@ -65,7 +63,6 @@
 
 * Learn how to play Rock Paper Scissors Lizard Spock.
 
-
 ## User Stories
 
 * I want the game to load quickly.
@@ -73,9 +70,7 @@
 * I dont want too much of a challenge.
 
 * I want to see my score go up.
-
 * I want to see if I won.
-
 
 ### Client goals
 
@@ -87,16 +82,15 @@
 
 * To be able to play the game again.
 
-
 # Design
 
 ## Colour Scheme
 
 ## Imagery
 I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
- * I got te first image from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+* I got te first image from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
 
-  * ![Introduction Image](./assets/images/rules.webp)
+* ![Introduction Image](./assets/images/rules.webp)
 
 * I got the second image from [Chasing The Frog](http://www.chasingthefrog.com/item/rock-paper-scissors-lizard-spock-t-shirt/).
 
@@ -118,26 +112,38 @@ A rock beats scissors and crushes lizard, scissors beats lizard by decapitating 
 
 ## languages used
 
- * HTML
- * CSS
- * JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## Frameworks, Libraries & Programs Used
-   * [Git](https://git-scm.com/) - For version Control.
-   * [Github](https://github.com/) - Used to save amd store the files for the website. 
-   * [Gitpod](https://www.gitpod.io/) - Was used to created my code.
-   * [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
-   * [AM I Resposnsive?](https://amiresponsive.co.uk/) - Used to show the Website image on a range of devices.
-   * [Shields](https://shields.io/) - For the shields at the top of the README.
-   * [Favicon](https://www.favicon-generator.org/) - Used to make a Favicon for the website.
-   * [Coolors](https://coolors.co/808080-ff0000-ffffff-f5f5f5-000000) - For my colour scheme.
-   * [Lamba Testing](https://www.lambdatest.com/?fp_ref=ngan15&gclid=Cj0KCQjwocShBhCOARIsAFVYq0i7XM8lENlC8yIrumBcCkS42VLHZfT6Fjc5waFzBGuNk6OCc7kIBFUaAou3EALw_wcB) - Was used for testing resposiveness across various devices.
-   * [Favicon Generator](https://www.favicon-generator.org/) - Was
- used to make the favicon.
-   * [HTML Validator](https://validator.w3.org/) - For HTML validation.
-   * [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - For CSS validation.
-   * [JS Hint](https://jshint.com/) For JavaScript validation.
 
+* [Git](https://git-scm.com/) - For version Control.
+
+* [Github](https://github.com/) - Used to save amd store the files for the website.
+
+* [Gitpod](https://www.gitpod.io/) - Was used to created my code.
+
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+* [AM I Resposnsive?](https://amiresponsive.co.uk/) - Used to show the Website image on a range of devices.
+
+* [Shields](https://shields.io/) - For the shields at the top of the README.
+
+* [Favicon](https://www.favicon-generator.org/) - Used to make a Favicon for the website.
+
+* [Coolors](https://coolors.co/808080-ff0000-ffffff-f5f5f5-000000) - For my colour scheme.
+
+* [Lamba Testing](https://www.lambdatest.com/?fp_ref=ngan15&gclid=Cj0KCQjwocShBhCOARIsAFVYq0i7XM8lENlC8yIrumBcCkS42VLHZfT6Fjc5waFzBGuNk6OCc7kIBFUaAou3EALw_wcB) - Was used for testing resposiveness across various devices.
+
+* [Favicon Generator](https://www.favicon-generator.org/) - Was
+ used to make the favicon.
+
+* [HTML Validator](https://validator.w3.org/) - For HTML validation.
+
+* [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - For CSS validation.
+
+* [JS Hint](https://jshint.com/) For JavaScript validation.
 
 # Testing
 
@@ -148,6 +154,7 @@ A rock beats scissors and crushes lizard, scissors beats lizard by decapitating 
 |I used If/else statements for the game logic checkWinner() the game kept giving a draw at random | I used a Switch statement instead to solve this problem.|
 | The winning streak was going up in doubles after playing again. | I was calling playgame() inside newGame() that was causing ths issue.
 | I had a footer that would not stay down across the page | After two days of trying to sort it I decided to remove the footer |
+
 # Deployment
 
 ## Local Deployment
