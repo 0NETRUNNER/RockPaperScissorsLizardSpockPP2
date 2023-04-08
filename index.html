@@ -22,6 +22,7 @@
         <h1>Rock Paper Scissors Lizard Spock</h1>
     </header>
     <section>
+        <!--Id for the rules of the game, it has a welcome message with a photo of how to play.-->
         <div id="game-rules">
             <div id="gamerules-item">
                 <h2>Welcome to Rock Paper Scissors Lizard Spock</h2>
@@ -30,21 +31,28 @@
                 <p>Play against the computer.</p>
                 <p>First to 5 wins is the overall winner.</p>
                 <br>
-                <img src="./assets/images/rules.webp" alt="Rock Paper Scissors Lizard Spock rules">
+                <!--photo with a diagram of how to play-->
+                <img src="./assets/images/rules.webp" alt="Rock Paper Scissors Lizard Spock Rules">
                 <div id="play-btn-container">
+                    <!--Button the start the game-->
                     <button id="play-btn" type="button">Play</button>
                 </div>
             </div>
         </div>
+        <!--This Id has a class called hide with display none to hide the game container when the game is not in play.
+        -->
         <div id="main-game-container" class="hide">
             <div id="main-game-item">
+                <!--For displaying the player & computers choice-->
                 <div id="score-area">
                     <h2>Player:<span id="player"> </span></h2>
                     <h2>Computer:<span id="computer"> </span></h2>
                 </div>
+                <!--Displays the winner of the round-->
                 <div id="winner-result">
                     <h2>Winner:<span id="winner"> </span></h2>
                 </div>
+                <!--This is where the game buttons are-->
                 <div id="game-area">
                     <button class="game-btn" type="button">Rock</button>
                     <button class="game-btn" type="button">Paper</button>
@@ -52,12 +60,15 @@
                     <button class="game-btn" type="button">Lizard</button>
                     <button class="game-btn" type="button">Spock</button>
                 </div>
+                <!--For tracking the rounds and who is winning-->
                 <div id="win-streaks">
                     <h2>Players win streak:<span id="win-streak-p"> </span></h2>
                     <h2>Computers win streak:<span id="win-streak-c"> </span></h2>
                 </div>
             </div>
         </div>
+        <!--This Id also has a hide class on it to hide the container when the game is being played.
+        Its got a photo of the characters from the game and a button to play again-->
         <div id="end-game-container" class="hide">
             <p>Thank you for playing Rock Paper Scissors Lizard Spock.</p>
             <p>I'm glad you had a chance to try out this advanced version of a classic game.</p>
@@ -70,6 +81,7 @@
 
         </div>
     </section>
+    <!--Script for the Javascript-->
     <script src="./assets/js/script.js"></script>
 </body>
 
