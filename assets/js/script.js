@@ -27,6 +27,9 @@ let computer = 0;
 let winner = 0;
 let playerWinStreak = 0;
 let computerWinStreak = 0;
+let youWon;
+let youLost;
+let youDraw;
 /*
  * Function to play the game that removes & adds containers from view
  * It calls the ComputerTurn function 
