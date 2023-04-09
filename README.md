@@ -265,6 +265,10 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
   * If you win or lose the game after 5 rounds a alert will pop up and tell you that you won or lost before taking you to the next window.
 
+  * ![404 Error](./assets/images/404-error.png)
+
+  * If something is wrong with the game a 404 error page displays
+
 </details>
 
 <details>
@@ -353,6 +357,7 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 | Computer win streak | Pass | Pass | Pass |
 | Computer win streak - colour | Pass | Pass | Pass |
 | Play again button | Pass | Pass | Pass |
+| 404 Error | Pass | Pass | Pass |
 
 | Player Choice | Computer Choice | Result | Pass/Fail |
 | :---| :---| :---| :---|
