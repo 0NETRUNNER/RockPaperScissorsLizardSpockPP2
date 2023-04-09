@@ -47,6 +47,8 @@
 
 * [Testing](#testing)
 
+  * [Validation](#validation)
+
   * [Lighthouse](#lighthouse)
 
   * [Bugs](#bugs)
@@ -84,7 +86,6 @@
 ## User Stories
 
 </summary>
-
 
 * I want the game to load quickly.
 
@@ -322,9 +323,45 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 * [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) - For CSS validation.
 
-* [JS Hint](https://jshint.com/) For JavaScript validation.
+* [JS Hint](https://jshint.com/) - For JavaScript validation.
 
 # Testing
+
+## Manual Testing
+
+### Validation
+
+* I used [HTML Validator](https://validator.w3.org/) for the HTML
+
+  * ![HTML](./assets/images/html-v.png)
+
+
+* I used [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) for the CSS
+
+  * ![CSS](./assets/images/css-v.png)
+
+
+* I used [JS Hint](https://jshint.com/) for the JavaScript
+
+  * ![JS](./assets/images/js-v.png)
+
+### Lighthouse
+
+* Desktop.
+
+* ![Desktop](./assets/images/lighthouse-desktop.png)
+
+* Mobile.
+
+* ![Mobile](./assets/images/lighthouse-mobile.png)
+
+
+### Wave
+
+* Wave had no errors
+
+* ![Wave](./assets/images/wave.png)
+
 
 ## Bugs
 
