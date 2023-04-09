@@ -130,7 +130,7 @@
 
   * Containers background
 
-  * Button on hover
+  * Button text on hover
   
 * **Black** | **rgb(0, 0, 0)**
 
@@ -138,7 +138,7 @@
 
   * Text content.
 
-* **Neon Green** | **rgb(4, 224, 96)*8
+* **Neon Green** | **rgb(4, 224, 96)**
 
   * Player choice
 
@@ -186,7 +186,8 @@ I have used two images in this game one at the start before playing and the seco
 </details>
 <details>
 
-<summary>desktop screens</summary>
+<summary>Desktop Screens</summary>
+
 * ![Desktop](./assets/images/wireframe-desktop-1.jpg)
 
 * ![Desktop](./assets/images/wireframe-desktop-2.jpg)
@@ -194,14 +195,97 @@ I have used two images in this game one at the start before playing and the seco
 * ![Desktop](./assets/images/wireframe-desktop-3.jpg)
 </details>
 
-
-## How to play
+# How to play
 
 Both players pick a choice rock beats scissors and crushes lizard, scissors beats lizard by decapitating it, and beats paper by cutting it, paper beats rock by covering it and discredits spock, lizard eats paper and poisons Spock, Spock smashes scissors and vaporizes rock.
 
 # Features
 
 ## General features on each page
+
+<details>
+<summary>Introduction</summary>
+
+* ![The full Page](./assets/images/intro-4.png)
+
+* ![Welcome message](./assets/images/intro-1.png)
+
+* When the webpage loads you are taken to the introduction which welcomes you to the game and explains how the game works.
+
+* ![The Rules](./assets/images/intro-2.png)
+
+* There is a photo of which choice beats the other underneath the welcome message.
+
+* ![Play Button](./assets/images/intro-3.png)
+
+* Underneath the image you have a play button to start the game.
+
+</details>
+
+<details>
+<summary>Main Game</summary>
+
+* ![The Full Page](./assets/images/maingame-0.png)
+
+* ![Choices](./assets/images/maingame-1.png)
+
+* After clicking the play button the main game window pops up it shows the player & computers choice.
+
+* ![Winner](./assets/images/maingame-2.png)
+
+* Underneath the player & computer choice it shows the winner of the round.
+
+* ![Buttons](./assets/images/maingame-3.png)
+
+* Then you have five buttons to choose from while you play the game.
+
+* ![Win Streak](./assets/images/maingame-5.png)
+
+* At the bottom of the game container you have win streaks to see who is winning the game.
+
+* ![Hover Effect](./assets/images/maingame-4)
+
+* When you hover over one of the buttons the colour changes from blue & black to pink & black.
+
+* The game is colour coded.
+
+  * ![Players Colour](./assets/images/maingame-colors-1.png)
+
+  * Green is the colour for anything related to the player there choice, if they won the round, and the players win streak
+
+  * ![Computer Colour](/assets/images/maingame-colors-2.png)
+
+  * Blue is the colour for anything related to the computer its choice, if it won the round, and the computers win streak
+
+  * ![Draw!](./assets/images/maingame-colors-3.png)
+
+  * Yellow is used on the round winner outcome if there is a draw.
+
+  * ![You Won!](./assets/images/maingame-youwon.png)
+  * ![You Lost](./assets/images/maingame-youlost.png)
+
+  * If you win or lose the game after 5 rounds a alert will pop up and tell you that you won or lost before taking you to the next window.
+
+</details>
+
+<details>
+ <summary>End Game</summary>
+
+* ![End Game](./assets/images/endgame-0.png)
+
+* ![Thank You](./assets/images/endgame-1.png)
+
+* This section is just to thank you for playing the game and giving them to option to play again.
+
+* ![Game Characters](./assets/images/endgame-2.png)
+
+* It has a image of the game characters.
+
+* ![Play Again Button](./assets/images/endgame-3.png)
+
+* Finally it has a button to play the game again.
+
+</details>
 
 # Technologies Used
 
