@@ -156,13 +156,9 @@
 
 I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
 
-* I got te first image from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
-
 * ![Introduction Image](./assets/images/rules.webp)
 
-* I got the second image from [Chasing The Frog](http://www.chasingthefrog.com/item/rock-paper-scissors-lizard-spock-t-shirt/).
-
-  * ![Game Characters](./assets/images/r-p-s-l-s.jpg)
+* ![Game Characters](./assets/images/r-p-s-l-s.jpg)
 
 ## Wireframes
 
@@ -451,8 +447,22 @@ To clone the repository:
 
 ## Code Used
 
-## Content
+Before starting my project I read [7 ways to code Rock Paper Scissors](https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535) when using a `If else statement` for the game logic it was giving too many bugs so I came back to this article to see how else I could do it.
+
+When I was first deciding what to make for project 2 I was watching coding videos on youtube and came across [Bro Code video of Rock Paper Scissors](https://www.youtube.com/watch?v=n1_vHArDBRA&t=305s). I familiarised myself with his code and learnt how to make the function computer turn function. I would like to reference/credit this piece of code.
 
 ## Media
 
+I got the image in the first container from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+
+I got the image in the end game container from [Chasing The Frog](http://www.chasingthefrog.com/item/rock-paper-scissors-lizard-spock-t-shirt/).
+
 ## Acknowledgments
+
+* I would like to thank my mentor [Rory](https://github.com/Ri-Dearg) for all the help and guidance through out the Project.
+
+* I would like to thank the Tutor support system for helping me when I was stuck or unsure.
+
+* I finished [One Months Javascript course](https://onemonth.com/) while building this project and I would like to thank them for having videos that were explained very well and got straight to the point.
+
+* To refresh myself of the basics I used [The Odins Projects Javascript fundamentals](https://www.theodinproject.com/lessons/foundations-fundamentals-part-1) which linked to many [Mdn Docs](https://developer.mozilla.org/en-US/) I would like to thank The Odin project for always having a helpful article or video to advance my studies.
