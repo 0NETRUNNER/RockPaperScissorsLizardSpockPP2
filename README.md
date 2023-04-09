@@ -53,8 +53,6 @@
 
   * [Bugs](#bugs)
 
-  * [Accessibility](#accessibility)
-
 * [Deployment](#deployment)
 
   * [Local deplyoment](#local-deployment)
@@ -62,8 +60,6 @@
 * [Credits](#credits)
 
   * [Code Used](#code-used)
-
-  * [Content](#content)
 
   * [Media](#media)
 
@@ -73,7 +69,13 @@
 
 ## Initial Discussion
 
-### Key information for this site
+Rock Paper Scissors Lizard Spock is a game I have built that is easy to learn, has a selection of options to choose from to win and is fun to play.
+
+There are 5 rounds and both players display one of the five options to choose from.
+
+The winner of each round is determinded based on each player’s choice, Rock Paper Scissors Lizard and Spock all have rules that dictates who’s choice wins or loses.
+
+## Key information for this site
 
 * An advanced version of the traditional game of Rock, Paper Scissors.
 
@@ -84,8 +86,6 @@
 * Learn how to play Rock Paper Scissors Lizard Spock.
 
 ## User Stories
-
-</summary>
 
 * I want the game to load quickly.
 
@@ -113,44 +113,43 @@
 
 * **Baby Blue** | **rgb(6, 209, 244)**
 
-  * Header text
+  * Background.
 
-  * Background
+  * Button text.
 
-  * Button text
+  * Computer choice.
 
-  * Computer choice
+  * Computer win streak.
 
-  * Computer win streak
-
-  * Winner text content when the computer wins
+  * Winner text content when the computer wins.
 
 * **Neon Pink** | **rgb(241. 20, 141)**
 
-  * Header background
+  * Header background.
 
-  * Containers background
+  * Containers background.
 
-  * Button text on hover
+  * Button text on hover.
   
 * **Black** | **rgb(0, 0, 0)**
 
-  * Button background colour
+  * Header text.
+
+  * Button background colour.
 
   * Text content.
 
 * **Neon Green** | **rgb(4, 224, 96)**
 
-  * Player choice
+  * Player choice.
 
-  * Player win streak
+  * Player win streak.
 
-  * Winner text content when the player wins
+  * Winner text content when the player wins.
 
 * **Yellow** | **rgb(255, 255, 0)**
 
-  * winner text content on draw
-
+  * winner text content on draw.
 
 ## Imagery
 
@@ -163,33 +162,36 @@ I have used two images in this game one at the start before playing and the seco
 ## Wireframes
 
 <details>
-<summary>Phone Screens</summary>
+<summary>Phone Screens.</summary>
 
 * ![Phone](./assets/images/wireframe-phone-1.jpg)
 
 * ![Phone](./assets/images/wireframe-phone-2.jpg)
 
 * ![Phone](./assets/images/wireframe-phone-3.jpg)
+
 </details>
 
 <details>
-<summary>Tablet Screens</summary>
+<summary>Tablet Screens.</summary>
 
 * ![Tablet](./assets/images/wireframe-tablet-1.jpg)
 
 * ![Tablet](./assets/images/wireframe-tablet-2.jpg)
 
 * ![Tablet](./assets/images/wireframe-tablet-3.jpg)
+
 </details>
 <details>
 
-<summary>Desktop Screens</summary>
+<summary>Desktop Screens.</summary>
 
 * ![Desktop](./assets/images/wireframe-desktop-1.jpg)
 
 * ![Desktop](./assets/images/wireframe-desktop-2.jpg)
 
 * ![Desktop](./assets/images/wireframe-desktop-3.jpg)
+
 </details>
 
 # How to play
@@ -386,11 +388,9 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
   * ![HTML](./assets/images/html-v.png)
 
-
 * I used [W3 Jigsaw](https://jigsaw.w3.org/css-validator/) for the CSS
 
   * ![CSS](./assets/images/css-v.png)
-
 
 * I used [JS Hint](https://jshint.com/) for the JavaScript
 
@@ -405,7 +405,6 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 * Mobile.
 
 * ![Mobile](./assets/images/lighthouse-mobile.png)
-
 
 ### Wave
 
