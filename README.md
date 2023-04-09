@@ -329,6 +329,61 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 ## Manual Testing
 
+| Browser | Pass/Fail |
+| :---| :---|
+| Chrome | Pass|
+| Fire Fox | Pass|
+| Safari | Pass|
+| Edge | Pass|
+| Opera | Pass|
+
+| Feature | Chrome | Edge | FireFox |
+| :---| :---| :---| :---|
+| Intro container | Pass | Pass | Pass |
+| Main game container | Pass | Pass | Pass |
+| End game container | Pass | Pass | Pass |
+| Header | Pass | Pass | Pass |
+| Play Button | Pass | Pass | Pass |
+| Player Choice | Pass | Pass | Pass |
+| Player Choice - colour | Pass | Pass | Pass |
+| Computer Choice - colour | Pass | Pass | Pass |
+| Winner | Pass | Pass | Pass |
+| Winner - Colour | Pass | Pass | Pass |
+| Buttons | Pass | Pass | Pass | | Pass |
+| Player win streak | Pass | Pass | Pass |
+| Player win streak - colour | Pass | Pass | Pass |
+| Computer win streak | Pass | Pass | Pass |
+| Computer win streak - colour | Pass | Pass | Pass |
+| Play again button | Pass | Pass | Pass |
+
+| Player Choice | Computer Choice | Result | Pass/Fail |
+| :---| :---| :---| :---|
+|Rock | Rock | Draw | Pass|
+| Rock|Paper |Paper| Pass|
+|Rock| Scissors| Rock| Pass|
+|Rock| Lizard| Rock| Pass|
+|Rock| Spock| Spock| Pass|
+|Paper| Rock| Paper| Pass|
+|Paper| Paper| Draw| Pass|
+|Paper| Scissors| Scissors| Pass|
+|Paper| Lizard| Lizard| Pass|
+|Paper| Spock| Paper| Pass|
+|Scissors| Rock| Rock| Pass|
+|Scissors| Paper| Scissors| Pass|
+|Scissors| Scissors |Draw| Pass|
+|Scissors| Lizard | Scissors| Pass|
+|Scissors| Spock| Draw| Pass|
+|Lizard| Rock| Rock| Pass|
+|Lizard| Paper |Lizard| Pass|
+|Lizard| Scissors |Scissors| Pass|
+|Lizard| Lizard |Draw| Pass|
+|Lizard| Spock| Lizard| Pass|
+|Spock| Rock| Spock| Pass|
+|Spock| Paper| Paper| Pass|
+|Spock| Scissors|Spock| Pass|
+|Spock| Lizard| Lizard| Pass|
+|Spock| Spock|Draw| Pass|
+
 ### Validation
 
 * I used [HTML Validator](https://validator.w3.org/) for the HTML
@@ -362,7 +417,6 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 * ![Wave](./assets/images/wave.png)
 
-
 ## Bugs
 
 | Bug | Solution |
@@ -391,7 +445,7 @@ To clone the repository:
 2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+5. Type `git clone` into the terminal and then paste the link you copied in step 3. Press enter.
 
 # Credits
 
