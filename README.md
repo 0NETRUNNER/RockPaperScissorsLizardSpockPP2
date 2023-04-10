@@ -431,7 +431,7 @@ These are the browsers I tested myself in futher detail
 
 ## Existing Bugs
 
-I have one rare bug that has pops up sometimes and I was not able to locate it. When you click scissors on you very first go the computer does not pick there choice but after the game works as normal.
+I have one rare bug that has pops up sometimes and I was not able to locate it. When you click scissors on your very first go the computer does not pick there choice but after the game works as normal.
 
 # Deployment
 
