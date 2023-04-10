@@ -53,6 +53,8 @@
 
   * [Bugs](#bugs)
 
+  * [Existing Bugs](#existing-bugs)
+
 * [Deployment](#deployment)
 
   * [Local deplyoment](#local-deployment)
@@ -149,11 +151,11 @@ The winner of each round is determinded based on each player’s choice, Rock Pa
 
 * **Yellow** | **rgb(255, 255, 0)**
 
-  * winner text content on draw.
+  * Winner text content on draw.
 
 ## Imagery
 
-I have used two images in this game one at the start before playing and the second is after the game ends. I also used the second image for the favicon.
+I have used two images in this game one at the start before playing the game and the second image is after the game ends. I haves also used the second image for the favicon.
 
 * ![Introduction Image](./assets/images/rules.webp)
 
@@ -207,44 +209,44 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 * ![The full Page](./assets/images/intro-4.png)
 
-* ![Welcome message](./assets/images/intro-1.png)
-
 * When the webpage loads you are taken to the introduction which welcomes you to the game and explains how the game works.
 
-* ![The Rules](./assets/images/intro-2.png)
+* ![Welcome message](./assets/images/intro-1.png)
 
 * There is a photo of which choice beats the other underneath the welcome message.
 
-* ![Play Button](./assets/images/intro-3.png)
+* ![The Rules](./assets/images/intro-2.png)
 
 * Underneath the image you have a play button to start the game.
+
+* ![Play Button](./assets/images/intro-3.png)
 
 </details>
 
 <details>
 <summary>Main Game</summary>
 
-* ![The Full Page](./assets/images/maingame-0.png)
-
-* ![Choices](./assets/images/maingame-1.png)
-
 * After clicking the play button the main game window pops up it shows the player & computers choice.
 
-* ![Winner](./assets/images/maingame-2.png)
+* ![The Full Page](./assets/images/maingame-0.png)
+
+
+* ![Buttons](./assets/images/maingame-1.png)
 
 * Underneath the player & computer choice it shows the winner of the round.
 
-* ![Buttons](./assets/images/maingame-3.png)
+* ![Winner](./assets/images/maingame-2.png)
 
 * Then you have five buttons to choose from while you play the game.
 
-* ![Win Streak](./assets/images/maingame-5.png)
+* ![Win Streak](./assets/images/maingame-3.png)
 
 * At the bottom of the game container you have win streaks to see who is winning the game.
 
-* ![Hover Effect](./assets/images/maingame-4)
+* ![Hover Effect](./assets/images/maingame-5.png)
 
 * When you hover over one of the buttons the colour changes from blue & black to pink & black.
+
 
 * The game is colour coded.
 
@@ -278,15 +280,15 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 * ![Thank You](./assets/images/endgame-1.png)
 
-* This section is just to thank you for playing the game and giving them to option to play again.
+* This section is to thank you for playing the game and gives player the option to play again.
 
 * ![Game Characters](./assets/images/endgame-2.png)
 
-* It has a image of the game characters.
+* It has an image of the game characters.
 
 * ![Play Again Button](./assets/images/endgame-3.png)
 
-* Finally it has a button to play the game again.
+* Gives a button to play the game again.
 
 </details>
 
@@ -302,7 +304,7 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 * [Git](https://git-scm.com/) - For version Control.
 
-* [Github](https://github.com/) - Used to save amd store the files for the website.
+* [Github](https://github.com/) - Used to save and store the files for the website.
 
 * [Gitpod](https://www.gitpod.io/) - Was used to created my code.
 
@@ -331,6 +333,7 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 ## Manual Testing
 
+I tested through all these with **LambaTesting** to see diferent screen sizes and browsers..
 | Browser | Pass/Fail |
 | :---| :---|
 | Chrome | Pass|
@@ -339,6 +342,7 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 | Edge | Pass|
 | Opera | Pass|
 
+These are the browsers I tested myself in futher detail
 | Feature | Chrome | Edge | FireFox |
 | :---| :---| :---| :---|
 | Intro container | Pass | Pass | Pass |
@@ -413,7 +417,7 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 ### Wave
 
-* Wave had no errors
+* Wave had no errors.
 
 * ![Wave](./assets/images/wave.png)
 
@@ -421,20 +425,26 @@ Both players pick a choice rock beats scissors and crushes lizard, scissors beat
 
 | Bug | Solution |
 | :---| :---|
-|I used If/else statements for the game logic checkWinner() the game kept giving a draw at random | I used a Switch statement instead to solve this problem.|
+|I used If/else statements for the game logic checkWinner() the game kept giving a draw at random. | I used a Switch statement instead to solve this problem.|
 | The winning streak was going up in doubles after playing again. | I was calling playgame() inside newGame() that was causing this issue.
-| I had a footer that would not stay down across the page | After two days of trying to sort it I decided to remove the footer |
+| I had a footer that would not stretch across the page and stayat the bottom. | After two days of trying to sort it I decided to remove the footer. |
+
+## Existing Bugs
+
+I have one rare bug that has pops up sometimes and I was not able to locate it. When you click scissors on you very first go the computer does not pick there choice but after the game works as normal.
 
 # Deployment
 
 ## Local Deployment
+
+[Live preview can be found here](https://dylanp400.github.io/RockPaperScissorsLizardSpockPP2/)
 
 ### How to Fork
 
 To fork the repository:
 
 1. Log in to Github.
-2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2.](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
 3. Click the Fork button in the top right corner.
 
 ### How to clone
@@ -442,7 +452,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in to GitHub.
-2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2.](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type `git clone` into the terminal and then paste the link you copied in step 3. Press enter.
@@ -453,17 +463,17 @@ To clone the repository:
 
 Before starting my project I read [7 ways to code Rock Paper Scissors](https://betterprogramming.pub/7-ways-to-code-rock-paper-scissors-in-javascript-4189a5e7e535) when using a `If else statement` for the game logic it was giving too many bugs so I came back to this article to see how else I could do it.
 
-When I was first deciding what to make for project 2 I was watching coding videos on youtube and came across [Bro Code video of Rock Paper Scissors](https://www.youtube.com/watch?v=n1_vHArDBRA&t=305s). I familiarised myself with his code and learnt how to make the function computer turn function. I would like to reference/credit this piece of code.
+When I was first deciding what to make for project 2 I was watching coding videos on youtube and came across [Bro Code video of Rock Paper Scissors](https://www.youtube.com/watch?v=n1_vHArDBRA&t=305s). I familiarised myself with his code and learnt how to make the function computer turn. I would like to reference/credit this piece of code.
 
 ## Media
 
-I got the image in the first container from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)
+I got the image in the first container from [The Big Bang Theory Fandom](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock).
 
 I got the image in the end game container from [Chasing The Frog](http://www.chasingthefrog.com/item/rock-paper-scissors-lizard-spock-t-shirt/).
 
 ## Acknowledgments
 
-* I would like to thank my mentor [Rory](https://github.com/Ri-Dearg) for all the help and guidance through out the Project.
+* I would like to thank my mentor [Rory](https://github.com/Ri-Dearg) for all the help and guidance through out the project.
 
 * I would like to thank the Tutor support system for helping me when I was stuck or unsure.
 
