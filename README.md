@@ -4,15 +4,15 @@
 
 ![Am I responsive?](./assets/images/am-i-resonsive.png)
 
-[Play the game here.](https://dylanp400.github.io/RockPaperScissorsLizardSpockPP2/)
+[Play the game here.](https://0netrunner.github.io/RockPaperScissorsLizardSpockPP2/)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/DylanP400/RockPaperScissorsLizardSpockPP2)
-![GitHub contributors](https://img.shields.io/github/contributors/DylanP400/RockPaperScissorsLizardSpockPP2)
-![GitHub language count](https://img.shields.io/github/languages/count/DylanP400/RockPaperScissorsLizardSpockPP2)
-![GitHub top language](https://img.shields.io/github/languages/top/DylanP400/RockPaperScissorsLizardSpockPP2)
-![GitHub Commit activity](https://img.shields.io/github/commit-activity/m/DylanP400/RockPaperScissorsLizardSpockPP2)
-![Code size](https://img.shields.io/github/languages/code-size/DylanP400/RockPaperScissorsLizardSpockPP2)
-![Github files](https://img.shields.io/github/directory-file-count/DylanP400/RockPaperScissorsLizardSpockPP2)
+![GitHub last commit](https://img.shields.io/github/last-commit/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
+![GitHub contributors](https://img.shields.io/github/contributors/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
+![GitHub language count](https://img.shields.io/github/languages/count/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
+![GitHub top language](https://img.shields.io/github/languages/top/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
+![GitHub Commit activity](https://img.shields.io/github/commit-activity/m/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
+![Code size](https://img.shields.io/github/languages/code-size/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
+![Github files](https://img.shields.io/github/directory-file-count/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
 
 ![Github stars](https://img.shields.io/github/stars/DylanP400/RockPaperScissorsLizardSpockPP2)
 ![Github forks](https://img.shields.io/github/forks/DylanP400/RockPaperScissorsLizardSpockPP2)
@@ -437,14 +437,14 @@ I have one rare bug that has pops up sometimes and I was not able to locate it. 
 
 ## Local Deployment
 
-[Live preview can be found here](https://dylanp400.github.io/RockPaperScissorsLizardSpockPP2/)
+[Live preview can be found here](https://onetrunner.github.io/RockPaperScissorsLizardSpockPP2/)
 
 ### How to Fork
 
 To fork the repository:
 
 1. Log in to Github.
-2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2.](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+2. Go to the repository for this project, [0NETRUNNER/RockPaperScissorsLizardSpockPP2.](https://github.com/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
 3. Click the Fork button in the top right corner.
 
 ### How to clone
@@ -452,7 +452,7 @@ To fork the repository:
 To clone the repository:
 
 1. Log in to GitHub.
-2. Go to the repository for this project, [DylanP400/RockPaperScissorsLizardSpockPP2.](https://github.com/DylanP400/RockPaperScissorsLizardSpockPP2)
+2. Go to the repository for this project, [0NETRUNNER/RockPaperScissorsLizardSpockPP2.](https://github.com/0NETRUNNER/RockPaperScissorsLizardSpockPP2)
 3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 5. Type `git clone` into the terminal and then paste the link you copied in step 3. Press enter.
